@@ -4,6 +4,9 @@ inputs:
   repo:
     description: "Child repository to sync the subtree to (eg. owner/repository.)"
     required: false
+  repo_token:
+    description: "github token in setting"
+    required: true
   path:
     description: "Path prefix in parent repo to split into child subtree (eg. src/PackageName.)"
     required: true
